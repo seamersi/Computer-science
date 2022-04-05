@@ -1,17 +1,19 @@
-#getnumber{
+#gN{
     font-size: 22px;
     text-align: center;
+    font-family: 'Work Sans', sans-serif;
 }
 .inputNumberbox{
     display: flex;
     justify-content: center;
 }
 #paragraph{
-    margin-left: 20px;
     background-color: aqua;
     color: black;
     padding: 30px;
     text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 23px;
 }
 .header{
     background-color: gold;
@@ -24,4 +26,8 @@
     color: gold;
     padding: 20px;
     text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+.testing{
+    color: rgb(140, 245, 119);
 }
