@@ -35,6 +35,7 @@ function uN(){
     q.style. backgroundColor = "black"
     q.style.padding = "50px"
     q.style.textAlign = "center"
+    q.style.borderRadius = "20px"
     return p;
 
 }
@@ -50,13 +51,21 @@ function compare(){
         o.style. backgroundColor = "red"
         o.style.padding = "50px"
         o.style.textAlign = "center"
+        o.style.borderWidth = "10px"
+        o.style.borderRadius = "20px"
+        o.style.borderColor = "black"
         counter++;
         k.innerHTML = `you have tried ${counter} times`
         k.style.color = "black"
         k.style. backgroundColor = "red"
         k.style.padding = "50px"
         k.style.textAlign = "center"
-        document.querySelector("body").style.backgroundColor = "rgb(245, 127, 127)"
+        k.style.borderWidth = "10px"
+        k.style.borderRadius = "20px"
+        k.style.borderColor = "black"
+        document.querySelector("body").style.backgroundImage = "url(redx.png)"
+        document.querySelector("body").style.backgroundPosition = "center"
+        document.querySelector("body").style.backgroundSize = "cover"
     }
     else if( a == b){
         o.innerHTML = "Theses numbers are the same the computer got " + b + " and you got " + a 
@@ -64,13 +73,22 @@ function compare(){
         o.style. backgroundColor = "green"
         o.style.padding = "50px"
         o.style.textAlign = "center"
+        o.style.borderRadius = "20px"
+        o.style.borderColor = "black"
+        o.style.borderWidth = "10px"
         k.innerHTML = `you have tried ${counter} times to get it right`
         k.style.color = "black"
         k.style. backgroundColor = "green"
         k.style.padding = "50px"
         k.style.textAlign = "center"
+        k.style.borderWidth = "10px"
+        k.style.borderRadius = "20px"
+        k.style.borderColor = "black"
         counter = 0
-        document.querySelector("body").style.backgroundColor = "rgb(140, 245, 119)"
+        document.querySelector("body").style.backgroundImage = "url(checkmark.webp)"
+        document.querySelector("body").style.backgroundPosition = "center"
+        document.querySelector("body").style.backgroundSize = "cover"
+
     }
     reset()
 
