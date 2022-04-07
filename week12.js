@@ -10,7 +10,7 @@ usernum.addEventListener("keydown", function (e){
 usernum.focus()
 function hello(){
     document.getElementById("paragraph").innerHTML = "click here again"
-    document.getElementById("paragraph").style.backgroundColor = "green"
+    document.getElementById("paragraph").style.backgroundColor = "orange"
     document.getElementById("paragraph").style.color = "white"
     rN();
     uN();
@@ -30,12 +30,6 @@ function uN(){
     let x = document.getElementById("gN")
     let p = x.value
     let q =  document.getElementById("uuN")
-    q.innerHTML = p
-    q.style.color = "red"
-    q.style. backgroundColor = "black"
-    q.style.padding = "50px"
-    q.style.textAlign = "center"
-    q.style.borderRadius = "20px"
     return p;
 
 }
@@ -51,18 +45,14 @@ function compare(){
         o.style. backgroundColor = "red"
         o.style.padding = "50px"
         o.style.textAlign = "center"
-        o.style.borderWidth = "10px"
         o.style.borderRadius = "20px"
-        o.style.borderColor = "black"
         counter++;
         k.innerHTML = `you have tried ${counter} times`
-        k.style.color = "black"
-        k.style. backgroundColor = "red"
+        k.style.color = "red"
+        k.style. backgroundColor = "black"
         k.style.padding = "50px"
         k.style.textAlign = "center"
-        k.style.borderWidth = "10px"
         k.style.borderRadius = "20px"
-        k.style.borderColor = "black"
         document.querySelector("body").style.backgroundImage = "url(redx.png)"
         document.querySelector("body").style.backgroundPosition = "center"
         document.querySelector("body").style.backgroundSize = "cover"
@@ -74,16 +64,12 @@ function compare(){
         o.style.padding = "50px"
         o.style.textAlign = "center"
         o.style.borderRadius = "20px"
-        o.style.borderColor = "black"
-        o.style.borderWidth = "10px"
         k.innerHTML = `you have tried ${counter} times to get it right`
-        k.style.color = "black"
-        k.style. backgroundColor = "green"
+        k.style.color = "green"
+        k.style. backgroundColor = "black"
         k.style.padding = "50px"
         k.style.textAlign = "center"
-        k.style.borderWidth = "10px"
         k.style.borderRadius = "20px"
-        k.style.borderColor = "black"
         counter = 0
         document.querySelector("body").style.backgroundImage = "url(checkmark.webp)"
         document.querySelector("body").style.backgroundPosition = "center"
