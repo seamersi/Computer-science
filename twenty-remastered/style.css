@@ -1,0 +1,156 @@
+/* a minimalist set of CSS resets */
+
+
+/* default to border-box */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* adjust typography defaults */
+  body {
+  
+    font-family: sans-serif;
+    line-height: 1.5;
+    background: url(images/table.jpeg);
+  }
+  
+  /* images and videos max out at full width */
+  img,
+  video {
+    height: auto;
+    max-width: 100%;
+  }
+  #title{
+    background-color: black;
+    color: green;
+    border-radius: 10px;
+    font-family: sans-serif;
+    height: 100px;
+    text-align: center;
+  }
+  
+  /* Alignment Classes Start */
+  
+  .textCenter {
+    text-align: center;
+  }
+  
+  .textLeft {
+    text-align: left;
+  }
+  
+  .textEnd {
+    text-align: end;
+  }
+  #give-cards{
+    color:red;
+    text-align: center;
+  }
+  #give-cards1{
+    color:red;
+    text-align: center;
+  }
+  
+  .objectCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .objectLeft {
+    display: flex;
+    justify-content: left;
+  }
+  
+  .objectEnd {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .flex {
+    display: flex;
+  }
+
+  /* Centering Jumbotron */
+  .jumbo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Jumbotron Text Color*/
+  .jumbotron {
+    color: white;
+  }
+  
+  /* Alignment Classes End */
+  .border {
+    border: red 2px solid;
+  }
+  
+  
+  /* InputBox Start */
+  
+  /* InputBox End */
+  
+  /* Button Start */
+  
+  
+  
+  /* Button End */
+  
+  /* Boxes */
+  .box {
+    width: 190px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box-1-2 {
+    height: 100px;
+    width: 183px;
+  }
+  
+  .box-3 {
+    height: 43px;
+    width: 183px;
+  }
+  
+  .mainBox {
+    width: 90%;
+    height: 90vh;
+  }
+  
+  .cardBox {
+    height: 30vh;
+    width: 13vw;
+  }
+  
+  .card {
+    height: 220px;
+    width: 150px;
+  }
+  
+  
+  /* padding lv */
+  
+  .padding {
+    padding: 10px;
+  }
+  
+  
+  /* margin */
+  
+  #marginA {
+    position: relative;
+    top: -12px;
+    background-color: black;
+    color: red; 
+    
+  }
