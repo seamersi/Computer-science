@@ -25,7 +25,7 @@ function userG()
 
     var suitArray = ["C", "D","S","H"]
     var randomsuit = Math.floor(Math.random() * 3);
-    document.getElementById("card1").innerHTML = "<img src=Cards/" + user + suitArray[randomsuit] + ".jpg"
+    document.getElementById("card1").innerHTML = "<img src=Cards/" + user + suitArray[randomsuit] + ".jpg>"
         
     if (utotal > 20) {
         alert("Player Lost");
